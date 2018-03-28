@@ -1,0 +1,18 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "start":  "start npm run server && start npm run compile:sass",
+    "server": "live-server",
+    "compile:sass": "node-sass sass/main.sass css/style.css -w"
+  },
+  "author": "Sergey Chirva",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {}
+}
